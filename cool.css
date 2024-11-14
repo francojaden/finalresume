@@ -1,0 +1,39 @@
+body {
+  background-color: #282c34; /* Dark background */
+  color: white; /* White text color */
+  font-family: 'Arial', sans-serif; /* Font family */
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+div {
+  text-align: center; /* Center content within each div */
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  margin: 10px;
+  width: 300px;
+  background-color: #333;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1rem;
+  width: calc(100% - 24px); /* Full width minus padding */
+}
+
+button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}

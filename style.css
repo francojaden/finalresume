@@ -1,0 +1,44 @@
+body {
+    background-color: #282c34; /* Dark background */
+    color: white; /* White text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    padding: 40px; /* Padding around content */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.button-container {
+    display: flex; /* Use flexbox for buttons */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    margin-top: 20px; /* Space above the button container */
+}
+
+.button {
+    background-color: #61dafb; /* Button color */
+    color: black; /* Button text color */
+    padding: 15px 25px; /* Button padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Transition for hover effect */
+    margin: 2px 0; /* Space between buttons */
+}
+
+.button:hover {
+    background-color: #21a1f1; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight upward movement on hover */
+}

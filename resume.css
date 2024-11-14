@@ -1,0 +1,60 @@
+body {
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 40px 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 20%;
+    max-width: 800px;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #61dafb; /* Button color */
+    color: black; /* Button text color */
+    padding: 15px 25px; /* Button padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Transition for hover effect */
+    margin: 2px 0; /* Space between buttons */
+}
+
+.button:hover {
+    background-color: #21a1f1; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight upward movement on hover */
+}

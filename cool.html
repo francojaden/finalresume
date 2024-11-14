@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>???</title>
+    <link rel="stylesheet" href="cool.css">
+</head>
+<body>
+    <div>
+        <h2>Add Two Numbers</h2>
+        <form>
+          <label for="fnumber"></label><br>
+          <input type="number" id="fnumber" name="fnumber"><br>
+          <label for="snumber"></label><br>
+          <input type="number" id="snumber" name="snumber"><br><br>
+        <button type="button" onclick="printSumToScreen()">Sum</button>
+        </form> 
+        
+         <p id="result"></p>
+         </div>
+         <script>
+            function printSumToScreen() {
+               let sum = parseFloat(fnumber.value)+parseFloat(snumber.value);
+               document.getElementById('result').textContent = `The sum of the two numbers is: ${sum}`;
+            }
+            </script>
+    </div>
+
+    <div>
+        <h2>Product of numbers</h2>
+        <form>
+            <label for="f2number"></label>
+            <br>
+            <input type="number" id="f2number" name="f2number">
+            <br>
+            <label for="s2number"></label>
+            <br>
+            <input type="number" id="s2number" name="s2number">
+            <br>
+            <button onclick="printProductToScreen()" type="button">Product</button>
+        
+        </form>
+        <p id="result1"></p>
+        <script>
+            function printProductToScreen() {
+                let product = parseFloat(f2number.value)*parseFloat(s2number.value);
+                document.getElementById('result1').textContent = `Product is: ${product}`;
+            }
+        </script>
+    </div>
+
+
+
+</body>
+</html>
